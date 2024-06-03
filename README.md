@@ -1,0 +1,2 @@
+# ForKrypton-mcModsAutoDownloads
+为氪叽的整合包制作的自动化mcJAVA版模组自动下载包，在此处开源给大家审查
