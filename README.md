@@ -1,2 +1,3 @@
-# ForKrypton-mcModsAutoDownloads
-为氪叽的整合包制作的自动化mcJAVA版模组自动下载包，在此处开源给大家审查
+# 整合包非专一渠道模组缩减工具
+功能：可在游戏打开时通过URLs.txt里列出的url下载补全模组，并提示重启游戏
+请不要删除isDone文件
