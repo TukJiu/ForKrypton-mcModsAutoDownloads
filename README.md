@@ -11,3 +11,7 @@
 配置文件为urls.txt，一行一个链接，最好不要包含中文，编码为utf-8
 
 **如您不了解如何打包，请前往<font color=lightblue>[发布](https://github.com/TukJiu/ForKrypton-mcModsAutoDownloads/releases)</font>页面，下载最新的jar包即可**
+
+## 安全提醒
+
+**本模组不保证下载的所有文件均为安全渠道下载，在使用或使用包含其的整合包时请保持开启360或Windows Defender等杀毒软件**
