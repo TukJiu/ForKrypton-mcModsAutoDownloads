@@ -18,4 +18,4 @@
 
 为保障您的设备安全：
 - 请谨慎判断下载源的可靠性。
-- 请保持[360安全卫士](https://weishi.360.cn/jisu)、[Windows Defender](https://www.microsoft.com/zh-cn/windows/comprehensive-security)等杀毒软件完整开启
+- 请保持[360安全卫士](https://www.360totalsecurity.com)、[Windows Defender](https://www.microsoft.com/zh-cn/windows/comprehensive-security)等杀毒软件完整开启
