@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>kryautodownloadmods</groupId>
+    <artifactId>kryautodownloadmods</artifactId>
+    <version>0.0.0</version>
+
+   <properties>
+    <minecraft.version>1.20.4</minecraft.version> <!-- Minecraft版本 -->
+    <fabric_loader.version>0.15.11</fabric_loader.version> <!-- Fabric Loader版本 -->
+    <fabric_api.version>0.97.1+1.20.4</fabric_api.version><!-- Fabric API版本，需确保与Minecraft版本兼容 -->
+    <yarn_mappings>1.20.4+build.3</yarn_mappings> <!-- Yarn映射版本，需根据Minecraft版本选择 -->
+</properties>
+
+    <repositories>
+        <repository>
+            <id>fabric-repo</id>
+            <url>https://maven.fabricmc.net/</url>
+        </repository>
+        <repository>
+            <id>minecraft-repo</id>
+            <url>https://libraries.minecraft.net/</url>
+        </repository>
+    </repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>net.fabricmc</groupId>
+        <artifactId>fabric-loader</artifactId>
+        <version>0.15.11</version>
+    </dependency>
+    <dependency>
+        <groupId>net.fabricmc.fabric-api</groupId>
+        <artifactId>fabric-api</artifactId>
+        <version>0.97.1+1.20.4</version>
+                 <exclusions>
+             <exclusion>
+                 <groupId>net.fabricmc.fabric-api</groupId>
+                 <artifactId>fabric-api-deprecated</artifactId>
+             </exclusion>
+         </exclusions>
+    </dependency>
+</dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,17 @@
+{
+    "schemaVersion": 1,
+    "id": "kryautodownloadmods",
+    "version": "0.0.0",
+    "name": "自动补全mods",
+    "description": "氪叽整合包专用自动补全mod，用于在游戏启动时下载安装时未被自动下载的mod",
+    "authors": ["Krypton", "TukJiu"],
+    "contact": {
+        "homepage": "https://github.com/TukJiu/ForKrypton-mcModsAutoDownloads",
+        "sources": "https://github.com/TukJiu/ForKrypton-mcModsAutoDownloads"
+    },
+    "license": "GPL-3.0",
+    "icon": "icon.png",
+    "entrypoints": {
+        "main": ["ModMain"]
+    }
+}
